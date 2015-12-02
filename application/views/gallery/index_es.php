@@ -1,35 +1,8 @@
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8" />
-		<title>El Corazon Golf Club</title>
-		<meta name="keywords" content="HTML5,CSS3,Template" />
-		<meta name="description" content="" />
-		<meta name="Author" content="Alberto Mendoza" />
+<!--[if gt IE 9]><!-->
 
-		<!-- mobile settings -->
-		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
-		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-
-		<!-- WEB FONTS : use %7C instead of | (pipe) -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
-		<!--Google fonts-->
-		<link href='https://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
-		<!--Icon-->
-		<link rel="icon" href="img/corazon_golf_club_icon.png" type="image/png">
-		<!-- CORE CSS -->
-		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		<!-- SWIPER SLIDER -->
-		<link href="assets/plugins/slider.swiper/dist/css/swiper.min.css" rel="stylesheet" type="text/css" />
-		<!-- THEME CSS -->
-		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
-		<!-- PAGE LEVEL SCRIPTS -->
-		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
-	</head>
 
 	<!--
 		AVAILABLE BODY CLASSES:
@@ -104,12 +77,11 @@
 					<!-- left -->
 					<ul class="top-links list-inline">
 						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="<?php echo base_url()?>assets/images/flags/mx.png" width="16" height="11" alt="lang" />ESPAÑOL</a>
 							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
+								<li><a tabindex="-1" href="<?php echo base_url().'index.php/gallery'; ?>"><img class="flag-lang" src="<?php echo base_url()?>assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="<?php echo base_url().'index.php/gallery/es';?>"><img class="flag-lang" src="assets/images/flags/mx.png" width="16" height="11" alt="lang" /> SPANISH</a></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/fr.png" width="16" height="11" alt="lang" /> FRENCH</a></li>
+								<li><a tabindex="-1" href="#"><img class="flag-lang" src="<?php echo base_url()?>assets/images/flags/fr.png" width="16" height="11" alt="lang" /> FRENCH</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -161,7 +133,7 @@
 						<!-- /BUTTONS -->
 						<!-- Logo -->
 						<a class="logo pull-left" href="../index.html">
-							<img src="img/corazon_golf_club_heading.png" alt="" />
+							<img src="<?php echo base_url()?>img/corazon_golf_club_heading.png" alt="" />
 						</a>
 
 
@@ -188,21 +160,21 @@
 									<li class="dropdown"><!-- HOME -->
 										<a href="../index.html">
 											<em>
-												Home
+												Inicio
 											</em>
 										</a>
 									</li>
 									<li class="dropdown"><!-- HISTORY -->
 										<a  href="../history/index.html">
 											<em>
-												History
+												Historia
 											</em>
 										</a>
 									</li>
 									<li class="dropdown active"><!-- GOLF COURSE -->
 										<a class="dropdown-toggle" href="#">
 											<em>
-												Golf Course
+												Campo de Golf
 											</em>
 										</a>
 										<ul class="dropdown-menu">
@@ -210,7 +182,7 @@
 												<a style="font-size:20px" href="../course_information/index.html">
 													<i style="font-size:15px" class="fa fa-question"></i>
 													<em>
-														Course Information
+														Información del campo
 													</em>
 												</a>
 											</li>
@@ -225,7 +197,7 @@
 											<li>
 												<a style="font-size:20px" href="../tee_time/index.html">
 													<i style="font-size:15px" class="fa fa-calendar"></i> <em>
-														Book a Tee Time
+														Reservar un Tee Time
 													</em>
 												</a>
 											</li>
@@ -233,7 +205,7 @@
 												<a style="font-size:20px" href="../rules/index.html">
 													<i style="font-size:15px" class="fa fa-warning"></i>
 													<em>
-														Rules
+														Reglas
 													</em>
 												</a>
 											</li>
@@ -241,7 +213,7 @@
 												<a style="font-size:20px" href="#">
 													<i style="font-size:15px" class="fa fa-home"></i>
 													<em>
-														Club House
+														Casa Club
 													</em>
 												</a>
 											</li>
@@ -250,13 +222,13 @@
 									<li class="dropdown active"><!-- GOLF COURSE -->
 										<a class="dropdown-toggle" href="#">
 											<em>
-												Restaurant
+												Restaurante
 											</em>
 										</a>
 										<ul class="dropdown-menu">
 											<li >
 												<a style="font-size:20px" href="#">
-													<i style="font-size:15px" class="fa fa-cutlery"></i> Restaurant
+													<i style="font-size:15px" class="fa fa-cutlery"></i> Restaurante
 												</a>
 											</li>
 											<li>
@@ -272,21 +244,21 @@
 									<li ><!-- EVENTS -->
 										<a href="#">
 											<em>
-												Events
+												Eventos
 											</em>
 										</a>
 									</li>
 									<li><!-- GALLERY -->
 										<a href="#">
 											<em>
-												Gallery
+												Galería
 											</em>
 										</a>
 									</li>
 									<li><!-- CONTACT -->
 										<a href="../contact/index.html">
 											<em>
-												Contact
+												Contacto
 											</em>
 										</a>
 									</li>
@@ -309,7 +281,7 @@
 
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
-						<li><a href="../index.html">Home</a></li>
+						<li><a href="../index.html">Inicio</a></li>
 						<li class="active">Gallery</li>
 					</ol><!-- /breadcrumbs -->
 
@@ -349,7 +321,7 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="img/hole_3_tee_box_ladies.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="<?php echo base_url()?>img/hole_3_tee_box_ladies.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-eye size-20"></span>
 											</a>
 
@@ -498,12 +470,12 @@
 
 
 		<!-- JAVASCRIPT FILES -->
-		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
-		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript">var plugin_path = '<?php echo base_url()?>assets/plugins/';</script>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/plugins/jquery/jquery-2.1.4.min.js"></script>
 
-		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/js/scripts.js"></script>
 		<!-- SWIPER SLIDER -->
-		<script type="text/javascript" src="assets/plugins/slider.swiper/dist/js/swiper.min.js"></script>
-		<script type="text/javascript" src="assets/js/view/demo.swiper_slider.js"></script>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/plugins/slider.swiper/dist/js/swiper.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/js/view/demo.swiper_slider.js"></script>
 	</body>
 </html>

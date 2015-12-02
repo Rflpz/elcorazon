@@ -29,6 +29,8 @@
 		<!-- PAGE LEVEL SCRIPTS -->
 		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<!--Custom CSS-->
+		<link rel="stylesheet" href="assets/css/custom.css" type="text/css">
 	</head>
 
 	<!--
@@ -62,17 +64,17 @@
 				<div class="row">
 
 					<div class="col-md-6">
-						<h6><i class="fa fa-question"></i> WHY EL CORAZON?</h6>
-						<p align="justify">The word says it all. And with that been said, there is not too much to it, but to admire the magnificence of what is in spirit El Corazon Golf Club. <br>
-						The conjunction of elements that form a player day by day are contained in this green fields. Fields of glory and challenges. Fields that form the player. Fields that are meant to make a complete player, in heart, spirit, strength and skill. </p>
+						<h6><i class="fa fa-question"></i> PORQUE EL CORAZON?</h6>
+						<p align="justify">La palabra lo dice todo. Y con eso se ha dicho, no es demasiado para ella, sino para admirar la magnificencia de lo que está en el espíritu de El Corazon Golf Club. <br>
+						La conjunción de los elementos que forman un jugador día a día están contenidos en estos campos verdes. Los campos de gloria y desafíos. Los campos que forman el jugador. Los campos que están destinados a hacer un jugador completo, en el corazón, el espíritu, la fuerza y habilidad. </p>
 					</div>
 
 					<div class="col-md-6">
-						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<h6><i class="icon-envelope"></i> DATOS DE CONTACTO</h6>
 						<ul class="list-unstyled">
-							<li><i class="fa fa-map-marker"></i><b>Address:</b> Domicilio Conocido El Naranjo, El Naranjo Manzanilo</li>
-							<li><i class="fa fa-phone"></i><b>Phone:</b> 314-133-7940</li>
-							<li><i class="fa fa-envelope-o"></i><b>Email: <a href="mailto:reservaciones@elcorazongolfclub.com"> reservaciones@elcorazongolfclub.com</a></b></li>
+							<li><i class="fa fa-map-marker"></i><b>Dirección:</b> Domicilio Conocido El Naranjo, El Naranjo Manzanilo</li>
+							<li><i class="fa fa-phone"></i><b>Teléfono:</b> 314-133-7940</li>
+							<li><i class="fa fa-envelope-o"></i><b>Correo Electrónico: <a href="mailto:reservaciones@elcorazongolfclub.com"> reservaciones@elcorazongolfclub.com</a></b></li>
 						</ul>
 					</div>
 
@@ -86,7 +88,6 @@
 		<!-- /SLIDE TOP -->
 
 
-
 		<!-- wrapper -->
 		<div id="wrapper">
 
@@ -97,18 +98,18 @@
 					<!-- right -->
 					<ul class="top-links list-inline pull-right">
 
-						<li class="hidden-xs"><a href="../login/index.html">LOGIN</a></li>
-						<li class="hidden-xs"><a href="../register/index.html">REGISTER</a></li>
+						<li class="hidden-xs"><a href="../login/index.html">INICIAR SESIÓN</a></li>
+						<li class="hidden-xs"><a href="../register/index.html">CREAR CUENTA</a></li>
 					</ul>
 
 					<!-- left -->
 					<ul class="top-links list-inline">
 						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="assets/images/flags/mx.png" width="16" height="11" alt="lang" /> ESPAÑOL</a>
 							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
+								<li><a tabindex="-1" href="../../en/history/index.html"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="<?php echo base_url().'index.php/gallery/es';?>"><img class="flag-lang" src="assets/images/flags/mx.png" width="16" height="11" alt="lang" /> SPANISH</a></li>
+								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/mx.png" width="16" height="11" alt="lang" /> ESPAÑOL</a></li>
 								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/fr.png" width="16" height="11" alt="lang" /> FRENCH</a></li>
 							</ul>
 						</li>
@@ -188,21 +189,21 @@
 									<li class="dropdown"><!-- HOME -->
 										<a href="../index.html">
 											<em>
-												Home
+												Inicio
 											</em>
 										</a>
 									</li>
 									<li class="dropdown"><!-- HISTORY -->
-										<a  href="../history/index.html">
+										<a  href="#">
 											<em>
-												History
+												Historia
 											</em>
 										</a>
 									</li>
 									<li class="dropdown active"><!-- GOLF COURSE -->
 										<a class="dropdown-toggle" href="#">
 											<em>
-												Golf Course
+												Campo de Golf
 											</em>
 										</a>
 										<ul class="dropdown-menu">
@@ -210,7 +211,7 @@
 												<a style="font-size:20px" href="../course_information/index.html">
 													<i style="font-size:15px" class="fa fa-question"></i>
 													<em>
-														Course Information
+														Información del campo
 													</em>
 												</a>
 											</li>
@@ -225,7 +226,7 @@
 											<li>
 												<a style="font-size:20px" href="../tee_time/index.html">
 													<i style="font-size:15px" class="fa fa-calendar"></i> <em>
-														Book a Tee Time
+														Reservar un Tee Time
 													</em>
 												</a>
 											</li>
@@ -233,7 +234,7 @@
 												<a style="font-size:20px" href="../rules/index.html">
 													<i style="font-size:15px" class="fa fa-warning"></i>
 													<em>
-														Rules
+														Reglas
 													</em>
 												</a>
 											</li>
@@ -241,7 +242,7 @@
 												<a style="font-size:20px" href="#">
 													<i style="font-size:15px" class="fa fa-home"></i>
 													<em>
-														Club House
+														Casa Club
 													</em>
 												</a>
 											</li>
@@ -250,13 +251,13 @@
 									<li class="dropdown active"><!-- GOLF COURSE -->
 										<a class="dropdown-toggle" href="#">
 											<em>
-												Restaurant
+												Restaurante
 											</em>
 										</a>
 										<ul class="dropdown-menu">
 											<li >
 												<a style="font-size:20px" href="#">
-													<i style="font-size:15px" class="fa fa-cutlery"></i> Restaurant
+													<i style="font-size:15px" class="fa fa-cutlery"></i> Restaurante
 												</a>
 											</li>
 											<li>
@@ -272,21 +273,21 @@
 									<li ><!-- EVENTS -->
 										<a href="#">
 											<em>
-												Events
+												Eventos
 											</em>
 										</a>
 									</li>
 									<li><!-- GALLERY -->
-										<a href="#">
+										<a href="../gallery/index.html">
 											<em>
-												Gallery
+												Galería
 											</em>
 										</a>
 									</li>
 									<li><!-- CONTACT -->
 										<a href="../contact/index.html">
 											<em>
-												Contact
+												Contacto
 											</em>
 										</a>
 									</li>
@@ -297,190 +298,105 @@
 					</div>
 				</header>
 				<!-- /Top Nav -->
-			</div>
-
-
-
-
-			<section class="page-header dark ">
-				<div class="container">
-
-					<h1>GALLERY</h1>
-
-					<!-- breadcrumbs -->
-					<ol class="breadcrumb">
-						<li><a href="../index.html">Home</a></li>
-						<li class="active">Gallery</li>
-					</ol><!-- /breadcrumbs -->
-
-				</div>
-			</section>
-			<!-- /PAGE HEADER -->
-
-
-
-
-			<!-- -->
-			<section>
-				<div class="container">
-
-					<ul id="portfolio_filter" class="nav nav-pills margin-bottom-60">
-						<li class="filter active"><a data-filter="*" href="#">All</a></li>
-						<li class="filter"><a data-filter=".front" href="#">Front Nine</a></li>
-						<li class="filter"><a data-filter=".back" href="#">Back Nine</a></li>
-						<li class="filter"><a data-filter=".greens" href="#">Greens</a></li>
-					</ul>
-
-					<!--
-						Please note: .infinite-scroll class
-
-						data-nextSelector="#inf-load-next" - see the bottom of portfolio
-						data-itemSelector="portfolio-item" - item class - should be common on all pages.
-
-					-->
-					<div id="portfolio" class="clearfix infinite-scroll portfolio-isotope portfolio-isotope-4" data-nextSelector="#inf-load-next" data-itemSelector=".portfolio-item">
-
-						<div class="portfolio-item development"><!-- item -->
-
-							<div class="item-box">
-								<figure>
-									<span class="item-hover">
-										<span class="overlay dark-5"></span>
-										<span class="inner">
-
-											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="img/hole_3_tee_box_ladies.jpg" data-plugin-options='{"type":"image"}'>
-												<span class="fa fa-eye size-20"></span>
-											</a>
-
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="fa fa-list-alt size-20"></span>
-											</a>
-
-										</span>
-									</span>
-
-									<img class="img-responsive" src="img/hole_3_tee_box_ladies.jpg" width="600" height="399" alt="">
-								</figure>
-
-								<div class="item-box-desc">
-									<h3>Street Photography</h3>
-									<ul class="list-inline categories nomargin">
-										<li><a href="#">Photography</a></li>
-										<li><a href="#">Design</a></li>
-									</ul>
-								</div>
-
-							</div>
-
-						</div><!-- /item -->
-
-
-
-					</div>
-
-				</div>
-			</section>
-			<!-- / -->
-
-
-			<!-- INFINITE SCROLL LOAD -->
-			<div id="inf-load-next" class="center">
-
-				<!--
-					NEXT PAGES:
-						portfolio-loading-infinite-scroll-2.html
-						portfolio-loading-infinite-scroll-3.html
-						portfolio-loading-infinite-scroll-4.html
-						......
-				-->
-				<a href="portfolio-loading-infinite-scroll-2.html" class="btn btn-3d btn-xlg btn-dirtygreen block size-25 weight-300 font-lato nomargin noradius">
-					load more...
-				</a>
 
 			</div>
-			<!-- /INFINITE SCROLL LOAD -->
 
 
 
-			<!--Footer-->
-						<footer id="footer">
-							<div class="container">
 
-								<div class="row">
+			<!-- SLIDER -->
+			<section id="slider" class="height-700 parallax parallax-2 " style="background-image:url('img/banner/history_corazon_golf_club.jpg')">
+			</section>
+			<!-- /SLIDER -->
 
-									<div class="col-md-8">
 
-										<!-- Footer Logo -->
-										<img class="footer-logo footer-2" src="img/corazon_golf_club_icon.png" height="50" alt="" />
 
-										<!-- Small Description -->
-										<p>Welcome to El Corazon Golf Club</p>
 
-										<hr />
+			<div class="container">
 
-										<div class="row">
-											<div class="col-md-6 col-sm-6">
+				<div class="text-center margin-top-80 margin-bottom-100 clearfix">
+					<h1 class="font-khausan-script size-50 weight-300 nomargin-bottom">Historia de <span style="color: #FF0000">El Corazon Golf Club</span></h1>
+					<hr />
+					<br><br>
+					<h2 align="justify">Bienvenido a El Corazon Golf Club &amp; Restaurante. una vez que vuela sobre Manzanillo, se ve una hermosa vista de sus bahías gemelas, Manzanillo y Santiago bahías. Están separados por la famosa Península de Santiago, sede de La Punta. Uno de los lugares más prestigiosos para vivir en México. Cuando te enfocas en las bahías tienes la sensación de que Manzanillo es en la forma de un corazón, y eso es lo que los propietarios de El Corazón de Manzanillo SA, Ltd. vieron cuando volaron sobre Manzanillo por primera vez de vuelta en diciembre de 1981. Ahí es donde surgió la idea de nombrar al campo de golf, "El Corazon Golf Club." Sus primeras palabras fueron: "Mira, está en la forma de un corazón!" ¿Quién hubiera pensado que iban a caer en el amor con el área, pero lo hicieron y han realizado una inversión en el futuro de Manzanillo con el campo de golf y el crecimiento futuro de la zona. </h2>
+				</div>
+		</div>
+		<!--Footer-->
+					<footer id="footer">
+						<div class="container">
 
-												<!-- Newsletter Form -->
-												<p class="margin-bottom-10">Send us an <strong>Email</strong></p><i class="fa fa-envelope"></i>
-												<a href="mailto:elcorazongolfclub@gmail.com">reservaciones@elcorazongolfclub.com</a>
-												<!-- /Newsletter Form -->
+							<div class="row">
+
+								<div class="col-md-8">
+
+									<!-- Footer Logo -->
+									<img class="footer-logo footer-2" src="img/corazon_golf_club_icon.png" height="50" alt="" />
+
+									<!-- Small Description -->
+									<p>Bienvenido a El Corazon Golf Club</p>
+
+									<hr />
+
+									<div class="row">
+										<div class="col-md-6 col-sm-6">
+
+											<!-- Newsletter Form -->
+											<p class="margin-bottom-10">Mandanos un <strong>Correo</strong></p><i class="fa fa-envelope"></i>
+											<a href="mailto:elcorazongolfclub@gmail.com">reservaciones@elcorazongolfclub.com</a>
+											<!-- /Newsletter Form -->
+										</div>
+
+										<div class="col-md-6 col-sm-6 hidden-xs">
+
+											<!-- Social Icons -->
+											<div class="margin-left-50 clearfix">
+
+												<p class="margin-bottom-10">Siguenos</p>
+												<a href="#" class="social-icon social-icon-sm social-icon-transparent social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+
+												<a href="#" class="social-icon social-icon-sm social-icon-transparent social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+
+												<a href="#" class="social-icon social-icon-sm social-icon-transparent social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+													<i class="icon-gplus"></i>
+													<i class="icon-gplus"></i>
+												</a>
 											</div>
-
-											<div class="col-md-6 col-sm-6 hidden-xs">
-
-												<!-- Social Icons -->
-												<div class="margin-left-50 clearfix">
-
-													<p class="margin-bottom-10">Follow Us</p>
-													<a href="#" class="social-icon social-icon-sm social-icon-transparent social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
-														<i class="icon-facebook"></i>
-														<i class="icon-facebook"></i>
-													</a>
-
-													<a href="#" class="social-icon social-icon-sm social-icon-transparent social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
-														<i class="icon-twitter"></i>
-														<i class="icon-twitter"></i>
-													</a>
-
-													<a href="#" class="social-icon social-icon-sm social-icon-transparent social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
-														<i class="icon-gplus"></i>
-														<i class="icon-gplus"></i>
-													</a>
-												</div>
-												<!-- /Social Icons -->
-
-											</div>
+											<!-- /Social Icons -->
 
 										</div>
 
 									</div>
 
-									<div class="col-md-4">
-										<h4 class="letter-spacing-1">Location</h4>
-
-										<ul class="list-unstyled">
-												<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3313.031713260883!2d-104.42159949768678!3d19.129847731777236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa1582596746ada7!2sEl+Corazon+Golf+Club!5e1!3m2!1ses-419!2smx!4v1446833813141" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-										</ul>
-
-									</div>
-
 								</div>
 
-							</div>
-							<div class="copyright">
-								<div class="container">
-									<ul class="pull-right nomargin list-inline mobile-block">
-										<li><a class="lightbox" href="ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options="{&quot;type&quot;:&quot;ajax&quot;, &quot;closeOnBgClick&quot;:false}">Privacy</a></li>
+								<div class="col-md-4">
+									<h4 class="letter-spacing-1">Localización</h4>
+
+									<ul class="list-unstyled">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3313.031713260883!2d-104.42159949768678!3d19.129847731777236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa1582596746ada7!2sEl+Corazon+Golf+Club!5e1!3m2!1ses-419!2smx!4v1446833813141" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 									</ul>
-									Welcome to El Corazon Golf Club &copy; 2015. All Rights Reserved
-								</div>
-							</div>
-						</footer>
-						<!-- /FOOTER -->
 
+								</div>
+
+							</div>
+
+						</div>
+						<div class="copyright">
+							<div class="container">
+								<ul class="pull-right nomargin list-inline mobile-block">
+									<li><a class="lightbox" href="ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options="{&quot;type&quot;:&quot;ajax&quot;, &quot;closeOnBgClick&quot;:false}">Privacy</a></li>
+								</ul>
+								Bienvenido a El Corazon Golf Club &copy; 2015. Reservados todos los derechos
+							</div>
+						</div>
+					</footer>
+					<!-- /FOOTER -->
 		</div>
 		<!-- /wrapper -->
 
